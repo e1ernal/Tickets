@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED026E8726A0615400D225F0 /* Ticket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED026E8526A0615400D225F0 /* Ticket.cpp */; };
+		ED026E8B26A0803400D225F0 /* SkipList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED026E8926A0803400D225F0 /* SkipList.cpp */; };
+		ED026E8F26A0809900D225F0 /* SkipListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED026E8D26A0809900D225F0 /* SkipListNode.cpp */; };
+		ED4DD7532699C488004B5F84 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED4DD7522699C488004B5F84 /* main.cpp */; };
+		ED4DD75B2699DE83004B5F84 /* Passenger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED4DD7592699DE83004B5F84 /* Passenger.cpp */; };
+		ED4DD75F2699EA40004B5F84 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED4DD75D2699EA40004B5F84 /* HashTable.cpp */; };
+		ED4DD762269A35B8004B5F84 /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED4DD760269A35B8004B5F84 /* HashNode.cpp */; };
+		EDE44053269F4389002BA321 /* Flight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE44051269F4389002BA321 /* Flight.cpp */; };
+		EDE4405B269F629C002BA321 /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE44059269F629C002BA321 /* AVLTree.cpp */; };
+		EDE4405E269F6C72002BA321 /* AVLNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4405C269F6C72002BA321 /* AVLNode.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED4DD74D2699C488004B5F84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED026E8526A0615400D225F0 /* Ticket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ticket.cpp; sourceTree = "<group>"; };
+		ED026E8626A0615400D225F0 /* Ticket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ticket.hpp; sourceTree = "<group>"; };
+		ED026E8926A0803400D225F0 /* SkipList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkipList.cpp; sourceTree = "<group>"; };
+		ED026E8A26A0803400D225F0 /* SkipList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkipList.hpp; sourceTree = "<group>"; };
+		ED026E8D26A0809900D225F0 /* SkipListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkipListNode.cpp; sourceTree = "<group>"; };
+		ED026E8E26A0809900D225F0 /* SkipListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkipListNode.hpp; sourceTree = "<group>"; };
+		ED4DD74F2699C488004B5F84 /* AviaSales */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AviaSales; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4DD7522699C488004B5F84 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ED4DD7592699DE83004B5F84 /* Passenger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Passenger.cpp; sourceTree = "<group>"; };
+		ED4DD75A2699DE83004B5F84 /* Passenger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Passenger.hpp; sourceTree = "<group>"; };
+		ED4DD75D2699EA40004B5F84 /* HashTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		ED4DD75E2699EA40004B5F84 /* HashTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		ED4DD760269A35B8004B5F84 /* HashNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
+		ED4DD761269A35B8004B5F84 /* HashNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
+		EDE44051269F4389002BA321 /* Flight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flight.cpp; sourceTree = "<group>"; };
+		EDE44052269F4389002BA321 /* Flight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Flight.hpp; sourceTree = "<group>"; };
+		EDE44059269F629C002BA321 /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
+		EDE4405A269F629C002BA321 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
+		EDE4405C269F6C72002BA321 /* AVLNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLNode.cpp; sourceTree = "<group>"; };
+		EDE4405D269F6C72002BA321 /* AVLNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLNode.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4DD74C2699C488004B5F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED026E8826A0635100D225F0 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				ED026E8526A0615400D225F0 /* Ticket.cpp */,
+				ED026E8626A0615400D225F0 /* Ticket.hpp */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		ED026E8C26A0803A00D225F0 /* SkipList */ = {
+			isa = PBXGroup;
+			children = (
+				ED026E8926A0803400D225F0 /* SkipList.cpp */,
+				ED026E8A26A0803400D225F0 /* SkipList.hpp */,
+			);
+			path = SkipList;
+			sourceTree = "<group>";
+		};
+		ED026E9026A0809E00D225F0 /* SkipListNode */ = {
+			isa = PBXGroup;
+			children = (
+				ED026E8D26A0809900D225F0 /* SkipListNode.cpp */,
+				ED026E8E26A0809900D225F0 /* SkipListNode.hpp */,
+			);
+			path = SkipListNode;
+			sourceTree = "<group>";
+		};
+		ED4DD7462699C488004B5F84 = {
+			isa = PBXGroup;
+			children = (
+				ED4DD7512699C488004B5F84 /* AviaSales */,
+				ED4DD7502699C488004B5F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4DD7502699C488004B5F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DD74F2699C488004B5F84 /* AviaSales */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4DD7512699C488004B5F84 /* AviaSales */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DD7522699C488004B5F84 /* main.cpp */,
+				ED026E9026A0809E00D225F0 /* SkipListNode */,
+				ED026E8C26A0803A00D225F0 /* SkipList */,
+				ED026E8826A0635100D225F0 /* Ticket */,
+				EDE4405F269F6C7D002BA321 /* AVLNode */,
+				EDE44058269F59D7002BA321 /* AVLTree */,
+				EDE44054269F439B002BA321 /* Flight */,
+				ED4DD764269A3AFD004B5F84 /* HashTable */,
+				ED4DD763269A3A17004B5F84 /* HashNode */,
+				ED4DD75C2699EA20004B5F84 /* Passenger */,
+			);
+			path = AviaSales;
+			sourceTree = "<group>";
+		};
+		ED4DD75C2699EA20004B5F84 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DD7592699DE83004B5F84 /* Passenger.cpp */,
+				ED4DD75A2699DE83004B5F84 /* Passenger.hpp */,
+			);
+			path = Passenger;
+			sourceTree = "<group>";
+		};
+		ED4DD763269A3A17004B5F84 /* HashNode */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DD760269A35B8004B5F84 /* HashNode.cpp */,
+				ED4DD761269A35B8004B5F84 /* HashNode.hpp */,
+			);
+			path = HashNode;
+			sourceTree = "<group>";
+		};
+		ED4DD764269A3AFD004B5F84 /* HashTable */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DD75D2699EA40004B5F84 /* HashTable.cpp */,
+				ED4DD75E2699EA40004B5F84 /* HashTable.hpp */,
+			);
+			path = HashTable;
+			sourceTree = "<group>";
+		};
+		EDE44054269F439B002BA321 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				EDE44051269F4389002BA321 /* Flight.cpp */,
+				EDE44052269F4389002BA321 /* Flight.hpp */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		EDE44058269F59D7002BA321 /* AVLTree */ = {
+			isa = PBXGroup;
+			children = (
+				EDE44059269F629C002BA321 /* AVLTree.cpp */,
+				EDE4405A269F629C002BA321 /* AVLTree.hpp */,
+			);
+			path = AVLTree;
+			sourceTree = "<group>";
+		};
+		EDE4405F269F6C7D002BA321 /* AVLNode */ = {
+			isa = PBXGroup;
+			children = (
+				EDE4405C269F6C72002BA321 /* AVLNode.cpp */,
+				EDE4405D269F6C72002BA321 /* AVLNode.hpp */,
+			);
+			path = AVLNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4DD74E2699C488004B5F84 /* AviaSales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4DD7562699C488004B5F84 /* Build configuration list for PBXNativeTarget "AviaSales" */;
+			buildPhases = (
+				ED4DD74B2699C488004B5F84 /* Sources */,
+				ED4DD74C2699C488004B5F84 /* Frameworks */,
+				ED4DD74D2699C488004B5F84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AviaSales;
+			productName = AviaSales;
+			productReference = ED4DD74F2699C488004B5F84 /* AviaSales */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4DD7472699C488004B5F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED4DD74E2699C488004B5F84 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = ED4DD74A2699C488004B5F84 /* Build configuration list for PBXProject "AviaSales" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4DD7462699C488004B5F84;
+			productRefGroup = ED4DD7502699C488004B5F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4DD74E2699C488004B5F84 /* AviaSales */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4DD74B2699C488004B5F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DD75B2699DE83004B5F84 /* Passenger.cpp in Sources */,
+				ED4DD7532699C488004B5F84 /* main.cpp in Sources */,
+				EDE44053269F4389002BA321 /* Flight.cpp in Sources */,
+				EDE4405B269F629C002BA321 /* AVLTree.cpp in Sources */,
+				EDE4405E269F6C72002BA321 /* AVLNode.cpp in Sources */,
+				ED4DD75F2699EA40004B5F84 /* HashTable.cpp in Sources */,
+				ED026E8B26A0803400D225F0 /* SkipList.cpp in Sources */,
+				ED4DD762269A35B8004B5F84 /* HashNode.cpp in Sources */,
+				ED026E8F26A0809900D225F0 /* SkipListNode.cpp in Sources */,
+				ED026E8726A0615400D225F0 /* Ticket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED4DD7542699C488004B5F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED4DD7552699C488004B5F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED4DD7572699C488004B5F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED4DD7582699C488004B5F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4DD74A2699C488004B5F84 /* Build configuration list for PBXProject "AviaSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DD7542699C488004B5F84 /* Debug */,
+				ED4DD7552699C488004B5F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4DD7562699C488004B5F84 /* Build configuration list for PBXNativeTarget "AviaSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4DD7572699C488004B5F84 /* Debug */,
+				ED4DD7582699C488004B5F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4DD7472699C488004B5F84 /* Project object */;
+}
